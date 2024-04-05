@@ -6,6 +6,7 @@ plugins {
 group = "com.zerogravity.moonlight"
 version = "1.0-SNAPSHOT"
 
+
 catalog {
     versionCatalog {
         from(files("./gradle/moonlight.versions.toml"))
