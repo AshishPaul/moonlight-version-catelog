@@ -19,6 +19,7 @@ catalog {
 publishing {
     publications {
         create<MavenPublication>("moonlight") {
+            artifactId = rootProject.name
             from(components["versionCatalog"])
         }
     }
